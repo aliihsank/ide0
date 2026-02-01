@@ -1,2 +1,8 @@
-# ide0
-Lightweight online ide developed for developer0 by AI
+
+## Getting Started
+
+### Run Server:
+- node server.js
+
+### Run Client:
+- npm run dev
