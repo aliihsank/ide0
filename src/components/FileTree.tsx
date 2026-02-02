@@ -55,6 +55,7 @@ function FileNode({ item, onFileClick, onFolderSelect, activeFile, selectedFolde
           }}
           className={`flex items-center gap-2 px-4 py-1 text-sm cursor-pointer hover:bg-[#2a2d2e] 
             ${selectedFolder === item.path ? 'bg-[#37373d] text-blue-300' : 'text-gray-300'}`}
+            title={item.name}
         >
           <span>{isOpen ? '📂' : '📁'}</span>
           <span className="truncate">{item.name}</span>
@@ -84,6 +85,7 @@ function FileNode({ item, onFileClick, onFolderSelect, activeFile, selectedFolde
       }}
       className={`flex items-center gap-2 px-4 py-1 text-sm cursor-pointer hover:bg-[#2a2d2e] 
         ${activeFile === item.path ? 'bg-[#37373d] text-blue-400' : 'text-gray-300'}`}
+        title={item.name}
     >
       <span>📄</span>
       <span className="truncate">{item.name}</span>
