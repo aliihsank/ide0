@@ -1,6 +1,6 @@
 
 ## Getting Started
-
+![Alt text](ss/preview.png?raw=true "Title")
 ### Purpose of Project:
 This project runs on cloud and it's an alternative to vs code.
 
